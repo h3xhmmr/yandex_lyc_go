@@ -139,4 +139,4 @@ func Calc(expression string) (float64, error) {
 }
 func main() {
 	fmt.Println(Calc(""))
-}
+} // проверка гита
