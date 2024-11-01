@@ -138,6 +138,7 @@ func Calc(expression string) (float64, error) {
 	return Calc(expression) // возвращаем значение функции с измененной строкой в ней
 }
 func main() {
-	fmt.Println(Calc("2+2"))
-	fmt.Println("гитхаб работай пж")
-} // проверка гита
+	var a string
+	fmt.Scan(&a)
+	fmt.Println(Calc(a))
+}
