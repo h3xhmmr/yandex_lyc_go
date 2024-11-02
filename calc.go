@@ -44,6 +44,9 @@ func Calc(expression string) (float64, error) {
 			return 0, error_unknown
 		}
 	}
+	if strings.Count(expression, "(") != strings.Count(expression, ")") {
+		return 0, error_unknown
+	}
 	if expression == "" || expression == " " {
 		return 0, error_unknown
 	}
