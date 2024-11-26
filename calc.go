@@ -145,3 +145,4 @@ func main() {
 	fmt.Scan(&a)
 	fmt.Println(Calc(a))
 }
+//ебанина с ноутбука
